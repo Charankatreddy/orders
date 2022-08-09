@@ -87,6 +87,7 @@ jobs:
          registry: docker.io
          image: charankatreddy/orders
          
+         
          #  path: target/
          #push: true
          #tags: charankatreddy/orders:latest
