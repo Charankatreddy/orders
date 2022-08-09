@@ -85,7 +85,7 @@ jobs:
         with:
          dockerfile: docker/orders/Dockerfile
          registry: docker.io
-         image: charankatreddy/sockshop
+         image: charankatreddy/orders
          
          #  path: target/
          #push: true
