@@ -84,9 +84,9 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/master'
         with:
          dockerfile: docker/orders/Dockerfile
-         path: target/
+       #  path: target/
          registry: docker.io
-         image: charankatreddy/orders
+         image: charankatreddy/sockshop
          #push: true
          #tags: charankatreddy/orders:latest
           #tag_with_ref:true
